@@ -1,6 +1,6 @@
 # CSC209
 
-## Week 1
+## Week 1 _Shell and File Systems_
 
 ### __Unix manual__
 
@@ -57,3 +57,23 @@ chmod go-x
 * [1-5] or [a-z] or [a-xz]
 
 > pointer types regular files??
+
+---
+
+## Week 2 _Arrays and Pointers_
+
+```c    
+int main() {
+    int num = 40;
+    int *pt;
+
+    pt = &num;
+    int *anotherpt = &num;
+
+    *pt = 30;
+    printf("%d\n", *anotherpt);
+
+    return 0;
+}
+```
+
